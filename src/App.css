@@ -1,0 +1,48 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 1rem);
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* MovieTile.module.css */
+.movie-list-container {
+  display: flex;
+  flex-direction: column; /* Display rows of tiles vertically */
+  align-items: flex-start; /* Align rows to the left */
+}
+
+.movie-row {
+  display: flex;
+  justify-content: space-between; /* Distribute space between tiles in each row */
+  margin-bottom: 10px; /* Add some space between rows */
+  width: 100%; /* Ensure rows span the full width */
+}
